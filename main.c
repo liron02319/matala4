@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
         {
                 printWordReverse(head,word,0);}
 
-	else {
+	else  if(argc==1) {
 		printWord(head,word,0);
 	}
 
